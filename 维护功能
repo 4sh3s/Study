@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T03:32:10.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.2" etag="iXHL_cQLfpHfvUUmY_pB" type="github"><diagram id="Kas9jdmxbzXiI1cHaccZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-11T03:39:57.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="NG04IuIt1GpVQaLdDuS1" version="17.4.2" type="github">
+  <diagram id="Kas9jdmxbzXiI1cHaccZ" name="第 1 页">
+    <mxGraphModel dx="1038" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4s9Fxhfp_tnEPHI2rOWk-1" target="4s9Fxhfp_tnEPHI2rOWk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-1" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="62" width="127" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4s9Fxhfp_tnEPHI2rOWk-2" target="4s9Fxhfp_tnEPHI2rOWk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-2" value="利用time模块创建一个定时器" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="323" y="131" width="148" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4s9Fxhfp_tnEPHI2rOWk-3" target="4s9Fxhfp_tnEPHI2rOWk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-3" value="服务端定时和客户端通信" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="323" y="194" width="148" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4s9Fxhfp_tnEPHI2rOWk-5" target="4s9Fxhfp_tnEPHI2rOWk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4s9Fxhfp_tnEPHI2rOWk-5" target="4s9Fxhfp_tnEPHI2rOWk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-5" value="客户端是否有更新" style="rhombus;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="327" y="256" width="140" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4s9Fxhfp_tnEPHI2rOWk-6" target="4s9Fxhfp_tnEPHI2rOWk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-6" value="下载新的软件，并且将其执行和进行自删除" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="323" y="341" width="148" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-9" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="333.5" y="402" width="127" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-18" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="307" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4s9Fxhfp_tnEPHI2rOWk-19" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="234" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
